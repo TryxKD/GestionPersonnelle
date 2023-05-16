@@ -1,0 +1,21 @@
+{
+  "name": "licence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server/index.js",
+    "build": "cd frontend/client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "18.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1"
+  }
+}
